@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Klasat</title>
+</head>
+<style>
+    
+    
+     a:active{
+        color: gray;
+        background-color: rgb(10, 141, 40);
+     }
+     input[type="radio"]:checked{
+       height: 30px;
+       width: 30px;
+     }
+     select option:checked{
+      background-color: aquamarine;
+     }
+     input:disabled{
+        background-color: bisque;
+     }
+     input:enabled{
+        background-color: saddlebrown;
+     }
+     div{
+        height: 50px;
+        
+     }
+     div:empty{
+        background-color: blueviolet;
+     }
+     p{
+        width: 50px;
+        height: 5px;
+     }
+     p:empty{
+        background-color: blue;
+     }
+     h4:first-child{
+        background-color: fuchsia;
+     }
+     h5:first-of-type{
+              background-color: seagreen;
+     }
+     
+
+
+
+
+</style>
+<body>
+    <a href="kahoot.it">Kahoot</a> <br>
+    <input type="radio" id="gjinia" name="gjinia"> <br>
+    <input type="checkbox" id="gjuha" name="shqip">
+    <br>
+    <select name="opsionet" id="">
+        <option value="Html">Html</option>
+        <option value="Css">Css</option>
+        <option value="Js">Javascript</option>
+    </select>
+<br>
+<br>
+    <input type="text" id="emri" name="emri"> <br> <br>
+    <input type="text" id="mbiemri" name="lname" disabled="disabled">
+
+    <p></p>
+    <div>
+        <h4>paragrafi 1</h4>
+        <h5>hello</h5>
+        <h5>Hello there</h5>
+        <h4>Paragrafi 2</h4>
+    </div>
+    <br>
+    
+</body>
+</html>

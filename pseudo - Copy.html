@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        select {
+            width: 200px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        option {
+            padding: 5px;
+        }
+
+        /* Stilimi për opsionet e zgjedhura */
+        select option:checked {
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <label for="languages">Zgjidh një gjuhë:</label>
+    <select id="languages">
+        <option value="shqip">Shqip</option>
+        <option value="anglisht">Anglisht</option>
+        <option value="frengjisht">Frengjisht</option>
+        <option value="gjermanisht">Gjermanisht</option>
+    </select>
+</body>
+</html>
